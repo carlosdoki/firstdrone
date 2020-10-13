@@ -19,6 +19,8 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    repo: carlosdoki/myrepo
+    repo: carlosdoki/amazingapp
     auto_tag: true
     auto_tag_suffix: drone-build
+    tags:
+      - '1.0.1'
